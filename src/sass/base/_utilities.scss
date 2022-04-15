@@ -1,5 +1,5 @@
 /*
- *   Copyright (c) 2021 Joe Watson SBF
+ *   Copyright (c) 2022 Joe Watson SBF
  *   All rights reserved.
  *   GitHub Profile :  https://github.com/joe-watson-sbf
  */
@@ -14,7 +14,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: $default-font-size;
 
     @include respond(tab-land){
         font-size: 56.25%;
@@ -31,10 +31,5 @@ html {
 
 body {
     box-sizing: border-box;
-    padding: 3rem;
-
-    @include respond(tab-port){
-        padding: 0;
-    };
-    
+    padding: 0;
 }

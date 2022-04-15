@@ -1,2 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&family=Updock&display=swap');
+
+
+/* ABSTRACTS IMPORT */
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+/* BASES IMPORT */
+@import './base/base.scss';
+@import './base/animations';
+@import './base/typography';
+@import './base/utilities';
